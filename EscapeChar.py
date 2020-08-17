@@ -15,3 +15,8 @@ split over
 several 
 lines"""
 print(anotherSplitString)
+
+print(r"C:\Users\tim\notes.txt") 
+# r is for 'raw string'
+print("C:\\Users\\tim\\notes.txt")
+# preferred method, escaping backslash char
