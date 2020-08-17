@@ -5,5 +5,15 @@ print('We can even include "quotes" in strings')
 print("Hello" + " world")
 
 greeting = "Hello"
-name = input("Please enter your name ")
+name = "Justin"
 print(greeting + " " + name)
+
+age = 28
+print(age)
+
+print(type(greeting))
+print(type(age))
+
+age = "2 years"
+print(age)
+print(type(age))
