@@ -20,3 +20,17 @@ print(parrot[:])      # doesnt have a start or stop value, so it prints the whol
 print(parrot[-4:-2])    # starts at index -4 and prints up to index -2
 print(parrot[-4:12])    # starts at index -4 and prints up to index 12
 print(parrot[-14:-8])   # Norweg
+
+# Step Slicing
+print(parrot[0:6:2])    # starts at index 0 and prints up to index 6 in increments of 2
+print(parrot[0:6:3])
+
+number = "9,223,372,036,854,775,807"
+number2 = "9,223;372:036 854,775;807"
+print(number[1::4])     # starts at index 1 and slices every 4th character
+
+seperators = number2[1::4]
+print(seperators)
+
+values = "".join(char if char not in seperators else " " for char in number2).split()
+print([int(val) for val in values])
