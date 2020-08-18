@@ -13,3 +13,7 @@ print(letters[4::-1])
 
 # create a slice that = last 8 characters in reverse
 print(letters[25:17:-1])
+
+print(letters[-4:])
+print(letters[-1:])
+print(letters[:1])
