@@ -14,4 +14,9 @@ print(parrot[6:])     # Starts at index 6 and goes to the end of the string
 
 print(parrot[:6] + parrot[6:])
 
-print(parrot[:])      # doesnt have a start or stop value, so it prints the whole string
+print(parrot[:])      # doesnt have a start or stop value, so it prints the whole string 
+
+# Negative Slicing
+print(parrot[-4:-2])    # starts at index -4 and prints up to index -2
+print(parrot[-4:12])    # starts at index -4 and prints up to index 12
+print(parrot[-14:-8])   # Norweg
