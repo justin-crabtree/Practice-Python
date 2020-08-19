@@ -4,8 +4,18 @@ print("Please guess a number between 1 and 10: ")
 guess = int(input())
 
 if guess < answer:
-  print("Please guess higher")
+  print("One more try, guess higher")
+  guess = int(input())
+  if guess == answer:
+    print("Well done, you guessed it!")
+  else:
+    print("Sorry, you guessed incorrectly")
 elif guess > answer:
-  print("Please guess lower")
+  print("One more try, guess lower")
+  guess = int(input())
+  if guess == answer:
+    print("Well done, you guessed it!")
+  else:
+    print("Sorry, you guessed incorrectly")
 else:
   print("Correct!")
