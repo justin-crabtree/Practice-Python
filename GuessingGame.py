@@ -16,6 +16,24 @@ if guess != answer:
 else:
   print("Beginners luck...")
 
+# if guess == answer:
+#   print("Beginners luck...")
+# elif guess > answer:
+#   print("One more try, guess lower")
+#   guess = int(input())
+#   if guess == answer:
+#     print("Correct!")
+#   else:
+#     print("You failed!")
+# else:
+#   if guess < answer:
+#     print("One more try, guess higher")
+#     guess = int(input())
+#     if guess == answer:
+#       print("Correct!")
+#     else:
+#       print("You failed!")
+
 
 # if guess < answer:    
 #   print("One more try, guess higher")
